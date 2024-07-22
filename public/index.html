@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruitment System</title>
+</head>
+<body>
+  <h1>Recruitment System</h1>
+  
+  <h2>Login</h2>
+  <form id="loginForm">
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+
+  <h2>Add Student</h2>
+  <form id="addStudentForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="text" id="enrollment" placeholder="Enrollment" required>
+    <input type="text" id="contact" placeholder="Contact" required>
+    <input type="email" id="studentEmail" placeholder="Email" required>
+    <input type="text" id="gender" placeholder="Gender" required>
+    <input type="text" id="city" placeholder="City" required>
+    <input type="text" id="state" placeholder="State" required>
+    <input type="number" id="tenthMarks" placeholder="10th Marks" required>
+    <input type="number" id="twelfthMarks" placeholder="12th Marks" required>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <h2>Placement Drives</h2>
+  <form id="addDriveForm">
+    <input type="text" id="companyName" placeholder="Company Name" required>
+    <input type="text" id="jobRole" placeholder="Job Role" required>
+    <input type="text" id="eligibilityCriteria" placeholder="Eligibility Criteria" required>
+    <input type="date" id="date" required>
+    <button type="submit">Add Placement Drive</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>
